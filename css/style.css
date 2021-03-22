@@ -1,0 +1,37 @@
+  body {
+    background-color: #FFFF3D;
+	font-family: courier;
+  }
+  .header {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .headerLink {	
+    text-decoration: none;
+  }
+  .headerTitle:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .pageLink {
+    border-radius: 10px;
+    padding: 16px;
+    background-color: #32CD32;
+    color: #000;
+    text-decoration: none;
+  }
+  .pageLink:hover {
+    background-color: #0b0;
+  }
+  .pageTitle,
+  .pageArticle {
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+    width: 99%;
+	height: 24px;
+  }
+  .mainContainer {
+    min-height: calc(100vh - 60px);
+  }
